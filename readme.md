@@ -1,10 +1,12 @@
 
 Problem statement is in NETassignment.docx
 
-Before you run make sure that .NET 5 is installed your running machine.
+Before you run make sure that `.NET 5` is installed your machine.
 
 1. Run CostCalculator.Web app. Web application opens Swagger UI.
-2. "Try it out" in /calculator/calculate-job. Find the sample request below
+2. "Try it out" in /calculator/calculate-job. Find the sample request below.
+
+```json
 {
 	"extraMargin": true,
 	"Items" : [
@@ -18,3 +20,4 @@ Before you run make sure that .NET 5 is installed your running machine.
 			"exempt" : true
 		}]
 }
+```
